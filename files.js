@@ -18,4 +18,6 @@ if (!fs.existsSync('./assets')){
 }
 
 // delete files
-if (fs.exis)
+if (fs.existsSync()){
+    awdaw;
+}
