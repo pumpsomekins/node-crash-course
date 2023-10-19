@@ -1,0 +1,1 @@
+const { people, ages } = require('./poeple');
