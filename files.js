@@ -21,3 +21,5 @@ if (!fs.existsSync('./assets')){
 if (fs.existsSync()){
     awdaw;
 }
+
+// how
