@@ -17,9 +17,17 @@ if (!fs.existsSync('./assets')){
     });
 }
 
-// delete files
-if (fs.existsSync()){
-    awdaw;
-}
+// write files
+fs.writeFile("./docs/how.txt", "howoow", () => {
+    console.log('how');
+});
 
-// how
+// delete files
+if (fs.existsSync('./docs/how.txt')){
+    fs.unlink('./docs/how.txt', (err) => {
+    if (err){
+        console.log("file does not exists.");
+    }
+    console.log('file is deleted');
+})
+}
